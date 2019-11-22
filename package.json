@@ -14,7 +14,7 @@
     "watch": "watch 'rollup --config' ./src --interval=5",
     "build": "rollup --config",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -c .storybook -o .out",
+    "build-storybook": "build-storybook --quiet -c .storybook -o .out",
     "http-server": "http-server .out"
   },
   "peerDependencies": {
