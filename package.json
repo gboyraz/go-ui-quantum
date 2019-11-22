@@ -15,7 +15,7 @@
     "build": "rollup --config",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook --quiet -c .storybook -o .out",
-    "http-server": "http-server .out"
+    "serve-storybook": "serve .out"
   },
   "peerDependencies": {
     "react": "^16.8.0",
